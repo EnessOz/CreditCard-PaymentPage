@@ -1,0 +1,142 @@
+.cardsquare  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+ 
+}
+.cardsquare #cardnumber {
+    margin: auto;
+    margin-top: 25%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 130%;
+    
+}
+.cardsquare #holdername {
+    margin-left: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    }
+    .mmyy {
+        display: flex;
+        flex-direction:row;
+        justify-content: space-around;
+    }
+.monthYear {
+    display: flex;
+    justify-content: space-between;
+}
+.maindiv .cardbacksquare {
+        background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(184,184,184,1) 57%, rgba(150,150,150,1) 100%);
+        border-radius: 10px;
+        margin: 0px;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+
+        position: relative;
+        top: 100px;
+        right: 450px;
+      height: 185px;
+      width: 350px;
+}
+.cardLine2 {
+    display: flex;
+    justify-content:end;
+    height: 30px;
+    width: 250px;
+    position: relative;
+    left: 15%;
+    background-color: rgb(95, 95, 95);
+    border-radius: 5px;
+   
+}
+.cardLine2 #CVCnumber {
+    margin-top: 7px;
+    margin-right: 7px;
+   
+}
+.cardLine {
+    height: 40px;
+  width: 350px;
+  background-color: black;
+  margin-top: 30px;
+}
+.maindiv .cardsquare {
+    background: rgb(101,98,153);
+    background: linear-gradient(125deg, rgba(101,98,153,1) 0%, rgba(119,82,154,1) 39%, rgba(161,133,58,1) 85%);
+    border-radius: 10px;
+    margin: 0px;
+    display: flex;
+    position: relative;
+    top: 100px;
+    right: 530px;
+  height: 185px;
+  width: 350px;
+  background-color: #60a82c;
+  z-index: 3;
+  
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-top: 5%;
+}
+.maindiv {
+    margin-bottom: -45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+}
+
+.squareLeft {
+  margin:-10px;
+  height: 100vh;
+  width: 100vh;
+  position: relative;
+  background: rgb(43,37,148);
+  background: linear-gradient(125deg, rgba(43,37,148,1) 0%, rgba(86,16,152,1) 35%, rgba(103,77,6,1) 85%);
+}
+.squareRight {
+    display: flex;
+    justify-content: center;
+    margin: -10px;
+    height: 100vh;
+    width: 200vh;
+    background: rgb(255,249,249);
+background: linear-gradient(38deg, rgba(255,249,249,1) 0%, rgba(140,140,140,1) 49%, rgba(71,66,66,1) 76%);
+}
+.informations {
+    width: 20%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    right: 20%;
+    bottom: 70px;
+   
+}
+.dates {
+    width: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.dates .month {
+    width: 40px;
+}
+.dates .year {
+    width: 40px;
+}
+.dates .cvc {
+   
+    width:145px;
+}
+.informations .confirm {
+    
+    margin-top: 20px;
+    border-radius: 5px;
+    background: rgb(101,98,153);
+    background: linear-gradient(125deg, rgb(66, 62, 133) 0%, rgb(89, 47, 128) 39%, rgb(90, 73, 25) 85%);
+    height: 25px;
+}

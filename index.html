@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./java.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Card Informatin-Payment Page</title>
+</head>
+<body>
+  
+  <div class="maindiv">
+    <div class="squareLeft"></div>
+    <div class="squareRight">
+      <div class="cards">
+     
+      <div class="cardsquare">
+        <p id="cardnumber">9000 8000 5000 3000</p>
+        <div class="mmyy">
+          <div>
+        <p id="holdername">Enes Oz</p>
+      </div>
+      <div class="monthYear">
+        <p id="monthNum">01</p>
+        <p>/</p>
+        <p id="yearNum">23</p>
+      </div>
+      </div>
+      </div>
+      <div class="cardbacksquare">
+        <div class="cardLine"></div>
+        <div class="cardLine2">
+          <p id="CVCnumber">216</p>
+        </div>
+      </div>
+      </div>
+      
+      <div class="informations">
+        <p>CARDHOLDER NAME</p>
+        <input type="text" id="nameinput" onfocus="this.value=''" onkeyup="nameinput(this)" value="Enes Oz">
+        <P>CARD NUMBER</P>
+        <input type="number" id="numberinput" onfocus="this.value=''" onkeyup="numberinput(this)" value="9000800050003000">
+        <p>DATE(MM/YY)-CVC</p>
+        <div class="dates">
+        <input type="number" onfocus="this.value=''" class="month" onkeyup="monthinput(this)" value="01">
+        <input type="number" class="year" onfocus="this.value=''" onkeyup="yearinput(this)" value="23">
+        <input type="number" class="cvc" onfocus="this.value=''" onkeyup="cvcinput(this)" value="216">
+        </div>
+        <button type="submit" class="confirm" onclick="confirm()">Confirm</button>
+   
+    </div>
+    
+      </div>
+
+  </div>
+ 
+</body>
+</html>
